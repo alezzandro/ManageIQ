@@ -22,7 +22,7 @@ end
 
 $evm.log("info", "Begin Automate Method")
 
-ext_mgt_system = $evm.root['vm'].ext_management_system.id
+ext_mgt_system = $evm.root['vm'].ext_management_system
 
 $evm.log("info", "Got ext_management_system #{ext_mgt_system.name}")
 
